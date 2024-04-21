@@ -9,6 +9,12 @@
     "bootstrap"
   ],
   "license": "MIT",
+    "repositories": [
+        {
+            "url": "https://github.com/banxa-global/laravelcollective-html",
+            "type": "git"
+        }
+    ],
   "authors": [
     {
       "name": "Nicolas Widart",
@@ -24,7 +30,7 @@
     "illuminate/support": "^9.44|^10.0|^11.0",
     "illuminate/config": "^9.44|^10.0|^11.0",
     "illuminate/view": "^9.44|^10.0|^11.0",
-    "laravelcollective/html": "^6.2"
+    "laravelcollective/html": "dev-laravel11-upgrade"
   },
   "require-dev": {
     "phpunit/phpunit": "~9.5|~10.0",
